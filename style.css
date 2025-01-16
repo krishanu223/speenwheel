@@ -24,7 +24,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.wheel {
+    transform: rotate(10deg);
+}
 .container .spinBtn {
     position: absolute;
     width: 100px;
