@@ -85,7 +85,7 @@ function check() {
 
 spinBtn.addEventListener("click", () => {
 
-	if (textin.value) {
+	if (textin.value < 10 && textin.value) {
 
 		let ledoffElements = document.querySelectorAll('.ledoff');
 		setTimeout(() => {
@@ -147,7 +147,7 @@ spinBtn.addEventListener("click", () => {
 		}, 7000);
 
 	} else {
-		alert("Please Enter something")
+		alert("Please Enter something Between 0 - 9")
 	}
 
 
