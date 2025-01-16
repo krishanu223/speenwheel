@@ -85,7 +85,7 @@ function check() {
 
 spinBtn.addEventListener("click", () => {
 
-	if (textin.value < 10 && textin.value) {
+	if (textin.value < 10 && textin.value && textin.value >= 0) {
 
 		let ledoffElements = document.querySelectorAll('.ledoff');
 		setTimeout(() => {
