@@ -40,35 +40,35 @@ function check() {
 
 
 	if (textin.value == 0) {
-		let randomNumber = Math.floor(Math.random() * (1466 - 1435 + 1)) + 1435;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1466 - 1435 + 1)) + 1435;
+		Value = 1450;
 	} else if (textin.value == 1) {
-		let randomNumber = Math.floor(Math.random() * (1430 - 1400 + 1)) + 1400;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1430 - 1400 + 1)) + 1400;
+		Value = 1415;
 	} else if (textin.value == 2) {
-		let randomNumber = Math.floor(Math.random() * (1754 - 1723 + 1)) + 1723;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1754 - 1723 + 1)) + 1723;
+		Value = 1739;
 	} else if (textin.value == 3) {
-		let randomNumber = Math.floor(Math.random() * (1718 - 1687 + 1)) + 1687;
-		Value = randomNumber;
+		//let randomNumber = Math.floor(Math.random() * (1718 - 1687 + 1)) + 1687;
+		Value = 1703;
 	} else if (textin.value == 4) {
-		let randomNumber = Math.floor(Math.random() * (1682 - 1651 + 1)) + 1651;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1682 - 1651 + 1)) + 1651;
+		Value = 1667;
 	} else if (textin.value == 5) {
-		let randomNumber = Math.floor(Math.random() * (1646 - 1615 + 1)) + 1615;
-		Value = randomNumber;
+		//let randomNumber = Math.floor(Math.random() * (1646 - 1615 + 1)) + 1615;
+		Value = 1631;
 	} else if (textin.value == 6) {
-		let randomNumber = Math.floor(Math.random() * (1610 - 1579 + 1)) + 1579;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1610 - 1579 + 1)) + 1579;
+		Value = 1595;
 	} else if (textin.value == 7) {
-		let randomNumber = Math.floor(Math.random() * (1574 - 1543 + 1)) + 1543;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1574 - 1543 + 1)) + 1543;
+		Value = 1559;
 	} else if (textin.value == 8) {
-		let randomNumber = Math.floor(Math.random() * (1538 - 1507 + 1)) + 1507;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1538 - 1507 + 1)) + 1507;
+		Value = 1523;
 	} else if (textin.value == 9) {
-		let randomNumber = Math.floor(Math.random() * (1502 - 1471 + 1)) + 1471;
-		Value = randomNumber;
+		//	let randomNumber = Math.floor(Math.random() * (1502 - 1471 + 1)) + 1471;
+		Value = 1487;
 	} else {
 		alert("Wrong Enter")
 	}
