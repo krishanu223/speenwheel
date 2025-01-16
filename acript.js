@@ -134,7 +134,7 @@ spinBtn.addEventListener("click", () => {
 		}, 10000);
 
 		setTimeout(() => {
-			wheel.style.transform = "rotate(" + 0 + "deg)";
+			wheel.style.transform = "rotate(" + 10 + "deg)";
 			wheel.style.transition = "transform 0s";
 			clearInterval(intervalId);
 			Value = 0
